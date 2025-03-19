@@ -75,7 +75,7 @@ button{
     -ms-transition: .3s;
     -o-transition: .3s;
 }
-button:hover{
+.bttn:hover{
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -160,6 +160,34 @@ input:focus{
         width: 100%;
     }
 }
+
+
+@media (max-width: 415px) {
+    form{
+        flex-direction: column;     
+        height: auto; 
+        padding: 10px;
+    }
+    input{
+        padding: 2px;
+        width: 100%;
+    }
+    ::placeholder{
+        font-size: 12px;
+        padding: 5px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    
+    h4{
+        margin-top: 50px;
+    }
+    .btn{
+        padding: 2px;
+    }
+}
+
 
 @media (max-width: 320px) {
     form{

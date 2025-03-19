@@ -8,7 +8,7 @@ const NavBar = () => {
 
     <div>
 
-        <nav className='w-full min-h-auto flex flex-wrap justify-between place-items-center items-center  min-h-auto'>
+        <nav className='w-full flex flex-wrap justify-between place-items-center items-center  min-h-auto'>
             <div className='img'>
                 <img src= {logo} alt='logo image' className='w-30 m-1'/>
             </div>
@@ -22,7 +22,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div>
-                <button className='flex  place-items-center items-center m-4 capitalize text-center'><IoAddSharp className='IoAddSharp' /> create</button>
+                <button className='bttn flex  place-items-center items-center m-4 capitalize text-center'><IoAddSharp className='IoAddSharp' /> create</button>
             </div>
         </nav>
 
