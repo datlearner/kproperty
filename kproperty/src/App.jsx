@@ -1,12 +1,12 @@
 import HomePage from "./components/HomePage"
-
+import Products from "./components/Products"
 
 function App() {
   return (
     <>
 
     <HomePage />
-     
+    <Products />
     </>
   )
 }
