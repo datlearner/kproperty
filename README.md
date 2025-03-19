@@ -8,14 +8,15 @@ KProperty is a real estate website built with React and Tailwind CSS. The projec
 This project is based on a Figma design I created and serves as a practical test of my frontend development skills. 🚀
 
 Installation
-Clone the repository:
+1. Clone the repository:
 git clone https://github.com/your-username/kproperty.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 cd kproperty
-Install dependencies:
+3. Install dependencies:
 npm install
-Start the development server:
+4. Start the development server:
 npm run dev
+
 Features
 Modern UI with Tailwind CSS
 Component-based React structure
