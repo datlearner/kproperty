@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Ensure html and body take the full height */
+html, body {
+    height: 100%;
+    margin: 0; /* To remove default margin */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Set the parent container's height */
+  #root { /* This is the default div rendered by React */
+    height: 100%;
+  }
+  
+  /* Target the div to make it 100% height */
+  .full-height-div {
+    height: 100%;
+  }
+  
