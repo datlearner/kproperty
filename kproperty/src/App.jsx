@@ -1,3 +1,4 @@
+import Details from "./components/Details"
 import HomePage from "./components/HomePage"
 import Products from "./components/Products"
 
@@ -7,6 +8,7 @@ function App() {
 
     <HomePage />
     <Products />
+    <Details />
     </>
   )
 }
