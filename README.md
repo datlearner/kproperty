@@ -21,4 +21,8 @@ Features
 Modern UI with Tailwind CSS
 Component-based React structure
 Live Demo
-Coming soon!
+
+## Live Demo
+The website is hosted on **Vercel**. You can check it out here:
+
+🔗 [Visit My Website](https://kproperty-gops.vercel.app/)
